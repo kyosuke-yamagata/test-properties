@@ -12,8 +12,3 @@
 
 * 参考にさせて頂いたQiita記事
 > https://qiita.com/rubytomato@github/items/abbf0ee15662a7252bd8
-
-# todo
-
-* @Value使ってマッピング
-* enum利用したproperties利用の実装つづき
