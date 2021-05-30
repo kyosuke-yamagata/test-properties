@@ -1,9 +1,9 @@
 {
   "groups": [
     {
-      "name": "test-app.colors",
-      "type": "com.example.demo.ConfigurationMetadataMapStudy",
-      "sourceType": "com.example.demo.ConfigurationMetadataMapStudy"
+      "name": "test-app",
+      "type": "com.example.demo.ConfigurationMetadataStudyMapProperties",
+      "sourceType": "com.example.demo.ConfigurationMetadataStudyMapProperties"
     },
     {
       "name": "test-app.test",
@@ -13,9 +13,9 @@
   ],
   "properties": [
     {
-      "name": "test-app.colors.color",
+      "name": "test-app.colors",
       "type": "java.util.List<com.example.demo.Color>",
-      "sourceType": "com.example.demo.ConfigurationMetadataMapStudy"
+      "sourceType": "com.example.demo.ConfigurationMetadataStudyMapProperties"
     },
     {
       "name": "test-app.test.max-height",

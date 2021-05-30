@@ -6,7 +6,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ConfigurationMetadataConfig {
 	@Bean
-	public ConfigurationMetadataMapStudy cmms() {
-		return new ConfigurationMetadataMapStudy();
+	public ConfigurationMetadataStudyMapProperties cmms() {
+		return new ConfigurationMetadataStudyMapProperties();
+	}
+	
+	@Bean
+	public ConfigurationMetadataStudy cms() {
+		return new ConfigurationMetadataStudy();
 	}
 }
