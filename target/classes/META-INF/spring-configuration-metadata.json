@@ -13,6 +13,11 @@
   ],
   "properties": [
     {
+      "name": "test-app.colors.color",
+      "type": "java.util.List<com.example.demo.Color>",
+      "sourceType": "com.example.demo.ConfigurationMetadataMapStudy"
+    },
+    {
       "name": "test-app.test.max-height",
       "type": "java.lang.Integer",
       "description": "max height description.",

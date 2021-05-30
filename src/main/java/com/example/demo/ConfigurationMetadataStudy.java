@@ -1,10 +1,10 @@
 package com.example.demo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
 
-@Component
 @ConfigurationProperties(prefix = "test-app.test")
 @Validated
 public class ConfigurationMetadataStudy {
