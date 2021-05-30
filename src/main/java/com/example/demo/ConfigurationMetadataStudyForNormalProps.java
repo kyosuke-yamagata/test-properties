@@ -7,7 +7,7 @@ import org.springframework.validation.annotation.Validated;
 
 @ConfigurationProperties(prefix = "test-app.test")
 @Validated
-public class ConfigurationMetadataStudy {
+public class ConfigurationMetadataStudyForNormalProps {
 
     /**
      * name description.

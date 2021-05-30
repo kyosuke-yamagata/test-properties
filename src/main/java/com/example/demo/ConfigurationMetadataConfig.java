@@ -5,13 +5,17 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ConfigurationMetadataConfig {
+	//no operation class
+	
+	/*
 	@Bean
-	public ConfigurationMetadataStudyMapProperties cmms() {
-		return new ConfigurationMetadataStudyMapProperties();
+	public ConfigurationMetadataStudyForCollectionProps cmsfmp() {
+		return new ConfigurationMetadataStudyForCollectionProps();
 	}
 	
 	@Bean
-	public ConfigurationMetadataStudy cms() {
-		return new ConfigurationMetadataStudy();
+	public ConfigurationMetadataStudyForNormalProps cmsfnp() {
+		return new ConfigurationMetadataStudyForNormalProps();
 	}
+	*/
 }

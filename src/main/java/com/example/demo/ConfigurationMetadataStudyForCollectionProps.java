@@ -9,7 +9,7 @@ import org.springframework.validation.annotation.Validated;
 
 @ConfigurationProperties(prefix = "test-app")
 @Validated
-public class ConfigurationMetadataStudyMapProperties {
+public class ConfigurationMetadataStudyForCollectionProps {
 
 	private List<Color> colors = new ArrayList<>();
 	
