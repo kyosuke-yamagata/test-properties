@@ -1,6 +1,13 @@
 # test-properties
 
+# 纏めたQiita記事
+
+* Spring Boot 設定値(Configuration Properties)入力をガッツリ支援する  
+
+> https://qiita.com/darjeeling/items/829724395e182a83e10e
+
 # 参考URL
+
 * propertiesとメタデータ  
 
 > https://spring.pleiades.io/spring-boot/docs/2.1.3.RELEASE/reference/html/configuration-metadata.html
