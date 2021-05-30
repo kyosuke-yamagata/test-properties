@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Test Page using thymeleaf templates</title>
 </head>
 <body>
-got access
+<h1>Test Page using thymeleaf templates</h1>
+<hr>
+<h1 th:text="${ColorsSize}"></h1>
+<table border="1">
+  <tr>
+  	<th>No.</th>
+  	<th>Enum value</th>
+  </tr>
+  <tr th:each="color,status : ${ColorsInstance}">
+    <td th:text="${status.count}"></td>
+    <td th:text="${color}"></td>
+  </tr>
+</table>
 </body>
 </html>
